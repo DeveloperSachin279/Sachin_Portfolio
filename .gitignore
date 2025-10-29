@@ -1,0 +1,22 @@
+# node / build
+node_modules/
+dist/
+.vite/
+build/
+
+# environment
+.env
+.env.* 
+
+# editor & OS files
+.DS_Store
+.vscode/
+.idea/
+
+# lock files (pick what you use)
+yarn.lock
+pnpm-lock.yaml
+
+# logs / coverage
+npm-debug.log*
+coverage/
